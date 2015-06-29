@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SocketMouse</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings0</string>
+    <string name="action_settings_1">Settings1</string>
+    <string name="action_settings_2">Settings2</string>
+    <string name="title_activity_socekt_adress">SocektAdressActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Conexão</string>
+    <string name="title_section3">Teclado</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+</resources>
