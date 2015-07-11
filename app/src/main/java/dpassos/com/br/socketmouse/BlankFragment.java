@@ -57,9 +57,7 @@ public class BlankFragment extends Fragment implements View.OnTouchListener , Se
                     finalizarConexao();
                 } else if (status.equals("mensagem_enviada")) {
                     podeEnviar = true;
-                } else if (status.equals("finalizar_conexao")) {
-                    podeEnviar = true;
-                }else if(status.equals("conexao_estabelecida")){
+                } else if(status.equals("conexao_estabelecida")){
                     podeEnviar = true;
                     salvarIp(ip);
                     enviarPosicoes(x, y);

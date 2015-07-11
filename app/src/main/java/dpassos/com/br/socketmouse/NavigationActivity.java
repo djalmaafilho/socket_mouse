@@ -39,7 +39,7 @@ public class NavigationActivity extends ActionBarActivity
         }else if(position == 1){
             f = new SocketAdressFragment();
         }else{
-            f = new TecladoFragment();
+          //  f = new TecladoFragment();
         }
         fragmentManager.beginTransaction()
                 .replace(R.id.container, f)

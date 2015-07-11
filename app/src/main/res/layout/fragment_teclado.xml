@@ -1,6 +1,8 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="dpassos.com.br.socketmouse.TecladoFragment">
+    android:layout_height="match_parent" tools:context="dpassos.com.br.socketmouse.TecladoFragment"
+    android:id="@+id/layoutRaiz"
+    >
 
     <TableRow>
         <Button
@@ -289,6 +291,37 @@
             android:layout_weight="1"
             android:text=";"
             android:id="@+id/btPontoVirgula"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ctrl"
+            android:id="@+id/btCtrl"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alt"
+            android:id="@+id/btAlt"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="space"
+            android:id="@+id/btspace"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Shift"
+            android:id="@+id/btShift"
             />
     </TableRow>
 </TableLayout>

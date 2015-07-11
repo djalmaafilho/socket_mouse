@@ -41,7 +41,8 @@ public class SocketAdressFragment extends BaseFragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.activity_socekt_adress, container, false);
-        SharedPreferences sp = getActivity().getSharedPreferences("socketmouseprefs", Context.MODE_PRIVATE);
+        SharedPreferences sp =
+                getActivity().getSharedPreferences("socketmouseprefs", Context.MODE_PRIVATE);
         String strIp = sp.getString("ultimo_ip", "");
 
         editText = (EditText)v.findViewById(R.id.txtIp);
